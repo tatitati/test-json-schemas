@@ -1,0 +1,1 @@
+In this example Country schema has a field "capital" which references an external "city" schema
