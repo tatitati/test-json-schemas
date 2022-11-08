@@ -27,11 +27,11 @@ class TestReferenceCustomProperties():
 				"capital": {
 					"$id": "#root/capital",
 					"type": "object",
-					"$ref": "#/$defs/capital"
+					"$ref": "#/$defs/city"
 				}
 			},
 			"$defs": {
-				"capital": {
+				"city": {
 					"type": "object",
 					"properties": {
 						"name": {
