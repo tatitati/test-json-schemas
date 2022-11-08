@@ -1,7 +1,7 @@
 {
 	"definitions": {},
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://example.com/country.json",
+	"$id": "https://example.com/schemas/country",
 	"title": "Root",
 	"type": "object",
 	"required": [
@@ -22,7 +22,7 @@
 		"capital": {
 			"$id": "#root/capital",
 			"type": "object",
-			"$ref": "file:city.json"
+			"$ref": "/schemas/city"
 		}
 	}
 }
