@@ -24,6 +24,7 @@ class TestReferenceExternalSchema():
 					"pattern": "^.*$"
 				},
 				"capital": {
+					"$id": "#root/capital",
 					"type": "object",
 					"$ref": "file:city.json"
 				}
